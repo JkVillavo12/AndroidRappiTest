@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/moviesList_coordinator"
+    style="@style/mm"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="jkvillavo.co.com.rappiandroidtest.MoviesListActivity"
+    tools:showIn="@layout/activity_movies_list">
+
+    <RelativeLayout
+        style="@style/mm">
+
+        <TextView
+            android:id="@+id/movieList_textNoData"
+            style="@style/ww"
+            android:layout_centerInParent="true"
+            android:text="@string/msg_noData"
+            android:visibility="gone"/>
+
+        <include
+            android:id="@+id/moviesList_include"
+            layout="@layout/partial_searchmovie"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/moviesList_recycler"
+            style="@style/mm"
+            android:layout_below="@id/moviesList_include"
+            android:layout_marginTop="@dimen/margin_M"
+            android:visibility="visible"/>
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

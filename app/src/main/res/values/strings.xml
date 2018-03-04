@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">Rappi Test</string>
+
+    <string name="lorem_3palabras">Lorem ipsum dolor.</string>
+    <string name="lorem_50palabras">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis id sem convallis faucibus at vitae magna. In vel nisl nec quam posuere ultrices. Donec pulvinar molestie nisl vel tincidunt. Vivamus sit amet libero posuere, pulvinar lorem sed, accumsan justo. Praesent massa leo, blandit vel felis sed, convallis aliquam.</string>
+
+    <string name="msg_inicio">Selecciona tu categoría favorita.</string>
+    <string name="msg_noData">No hay información para mostrar.</string>
+    <string name="msg_saludo">Buenas tardes, Usuario.</string>
+    <string name="msg_movies">¿Qué pelicula estas buscando?</string>
+    <string name="msg_generic_failWS">Ha ocurrido un error inesperado, intentelo mas tarde por favor</string>
+    <string name="msg_checknet">¡Por favor verifique su conexión a Internet!</string>
+
+    <string name="msg_commonPalabraClaveHint">Ingresa palabra clave</string>
+
+    <string name="title_developername">Juan C. Martínez O.</string>
+    <string name="title_populares">Populares</string>
+    <string name="title_topRated">Mejores calificadas</string>
+    <string name="title_upComing">Pronto...</string>
+    <string name="title_activity_movies_list">Movies</string>
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
+
+    <string name="msg_ratings"> %1$s Ratings.</string>
+    <string name="msg_caracteres">Ingrese al menos %1$s caracteres.</string>
+
+
+</resources>

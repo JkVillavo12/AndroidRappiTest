@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    style="@style/mw"
+    android:padding="@dimen/padding_S">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/itemMovie_card"
+        style="@style/mw"
+        android:layout_height="@dimen/viewHeihght_movie"
+        android:elevation="@dimen/elevation_S"
+        card_view:cardCornerRadius="@dimen/radiusM"
+        card_view:cardElevation="@dimen/elevation_S"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            style="@style/mm">
+
+            <ImageView
+                android:id="@+id/itemMovie_image"
+                style="@style/mm"
+                android:scaleType="fitXY"
+                android:transitionName="transition_movie"/>
+
+            <RelativeLayout
+                style="@style/mw"
+                android:layout_alignParentBottom="true"
+                android:background="@color/dividerOpacity"
+                android:padding="@dimen/padding_S">
+
+                <TextView
+                    android:id="@+id/itemMovie_textTitle"
+                    style="@style/mw"
+                    android:transitionName="transition_movieName"
+                    android:text="@string/lorem_3palabras"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/textColorWhite"/>
+
+                <TextView
+                    android:id="@+id/itemMovie_textDate"
+                    style="@style/mw"
+                    android:layout_below="@id/itemMovie_textTitle"
+                    android:text="@string/lorem_3palabras"
+                    android:textColor="@color/textColorWhiteOpacity"/>
+
+                <TextView
+                    android:id="@+id/itemMovie_textAverage"
+                    style="@style/ww"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/shape_average"
+                    android:padding="@dimen/padding_XS"
+                    android:text="7.7"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/textColorWhite"/>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

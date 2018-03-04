@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mm"
+    android:layout_margin="@dimen/margin_M"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="jkvillavo.co.com.rappiandroidtest.PrincipalActivity"
+    tools:showIn="@layout/activity_principal">
+
+    <RelativeLayout
+        style="@style/mm">
+
+        <ImageView
+            android:id="@+id/principal_image"
+            style="@style/ww"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_the_movie_db_64dp"
+            android:transitionName="splash_icono"/>
+
+        <TextView
+            android:id="@+id/principal_textInicio"
+            style="@style/mw"
+            android:layout_below="@id/principal_image"
+            android:text="@string/msg_inicio"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/principal_recycler"
+            style="@style/mm"
+            android:layout_below="@id/principal_textInicio"
+            android:layout_marginTop="@dimen/margin_M"/>
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

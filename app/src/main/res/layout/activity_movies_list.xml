@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mm"
+    android:animateLayoutChanges="true"
+    tools:context="jkvillavo.co.com.rappiandroidtest.MoviesListActivity">
+
+    <include layout="@layout/content_movies_list"/>
+
+</android.support.design.widget.CoordinatorLayout>

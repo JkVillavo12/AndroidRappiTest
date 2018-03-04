@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mm.marginAll"
+    tools:context="jkvillavo.co.com.rappiandroidtest.SplashActivity">
+
+    <ImageView
+        android:id="@+id/splash_image_TheMovie"
+        style="@style/ww"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_the_movie_db_64dp"
+        android:transitionName="splash_icono"/>
+
+    <TextView
+        style="@style/mw"
+        android:layout_below="@id/splash_image_TheMovie"
+        android:gravity="center_horizontal"
+        android:text="@string/title_developername"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+
+</RelativeLayout>

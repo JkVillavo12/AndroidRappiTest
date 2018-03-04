@@ -1,0 +1,44 @@
+<resources>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="margin_XS">4dp</dimen>
+    <dimen name="margin_S">8dp</dimen>
+    <dimen name="margin_M">16dp</dimen>
+    <dimen name="margin_L">32dp</dimen>
+    <dimen name="margin_XL">48dp</dimen>
+
+    <dimen name="padding_XS">4dp</dimen>
+    <dimen name="padding_S">8dp</dimen>
+    <dimen name="padding_M">16dp</dimen>
+    <dimen name="padding_L">32dp</dimen>
+    <dimen name="padding_XL">48dp</dimen>
+
+    <dimen name="radiusXS">1dp</dimen>
+    <dimen name="radiusS">2dp</dimen>
+    <dimen name="radiusM">4dp</dimen>
+    <dimen name="radiusL">8dp</dimen>
+    <dimen name="radiusXL">16dp</dimen>
+
+    <dimen name="lineHeight_XS">1dp</dimen>
+    <dimen name="lineHeight_S">2dp</dimen>
+    <dimen name="lineHeight_M">4dp</dimen>
+    <dimen name="lineHeight_L">8dp</dimen>
+    <dimen name="lineHeight_XL">16dp</dimen>
+
+    <dimen name="elevation_XS">1dp</dimen>
+    <dimen name="elevation_S">2dp</dimen>
+    <dimen name="elevation_M">4dp</dimen>
+    <dimen name="elevation_L">8dp</dimen>
+    <dimen name="elevation_XL">16dp</dimen>
+
+    <dimen name="viewHeihght_normal">48dp</dimen>
+    <dimen name="viewHeihght_normalx1_5">72dp</dimen>
+    <dimen name="viewHeihght_normalx2">96dp</dimen>
+    <dimen name="viewHeihght_normalx3">144dp</dimen>
+
+    <dimen name="viewHeihght_movie">240dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+</resources>

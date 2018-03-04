@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mm"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="jkvillavo.co.com.rappiandroidtest.MovieDetailActivity"
+    tools:showIn="@layout/activity_movie_detail">
+
+    <LinearLayout
+        style="@style/mm.vert">
+
+        <include layout="@layout/partial_moviedetail"/>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

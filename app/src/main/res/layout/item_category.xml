@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    style="@style/mw"
+    android:layout_margin="@dimen/margin_XS">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/itemCategory_card"
+        style="@style/mw"
+        android:layout_height="@dimen/viewHeihght_normalx3"
+        android:elevation="@dimen/elevation_S"
+        card_view:cardCornerRadius="@dimen/radiusM"
+        card_view:cardElevation="@dimen/elevation_S"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            style="@style/mm.marginAll">
+
+            <TextView
+                android:id="@+id/itemCategory_text"
+                style="@style/mw"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:text="@string/lorem_3palabras"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@color/primary_text"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

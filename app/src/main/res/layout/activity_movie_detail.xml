@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movieDetail_coordinatorLayout"
+    style="@style/mm"
+    android:animateLayoutChanges="true"
+    android:fitsSystemWindows="true"
+    tools:context="jkvillavo.co.com.rappiandroidtest.MovieDetailActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/movieDetail_appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/viewHeihght_movie"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/movieDetail_collapsing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="snap"
+            app:toolbarId="@+id/toolbar">
+
+            <ImageView
+                android:id="@+id/movieDetail_image"
+                style="@style/mw"
+                android:layout_height="@dimen/viewHeihght_movie"
+                android:transitionName="transition_movie"/>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/movieDetail_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_movie_detail"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/movieDetail_fabVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_M"
+        android:tint="@color/icons"
+        android:visibility="gone"
+        app:layout_anchor="@id/movieDetail_appBarLayout"
+        app:layout_anchorGravity="bottom|end"
+        app:srcCompat="@drawable/ic_play_arrow_black_36dp"/>
+
+</android.support.design.widget.CoordinatorLayout>
