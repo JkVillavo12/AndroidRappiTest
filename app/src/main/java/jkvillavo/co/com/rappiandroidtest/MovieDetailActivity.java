@@ -314,8 +314,10 @@ public class MovieDetailActivity extends AppCompatActivity {
 
         // generos
         movieDetailImageGenero.setVisibility(View.GONE);
+        movieDetailTextGenero.setVisibility(View.GONE);
         if (!currentMovieIn.getGenres().equalsIgnoreCase("")) {
             movieDetailImageGenero.setVisibility(View.VISIBLE);
+            movieDetailTextGenero.setVisibility(View.VISIBLE);
             movieDetailTextGenero.setText(currentMovieIn.getGenres());
         }
 
