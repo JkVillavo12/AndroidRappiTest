@@ -276,7 +276,8 @@ public class MovieDetailActivity extends AppCompatActivity {
         String textCompanies = Utilidades.getStringFromListCompanies(currentMovieIn.getProduction_companies());
         if (!textCompanies.equalsIgnoreCase("")) {
             movieDetailImageCompanies.setVisibility(View.VISIBLE);
-            movieDetailTextCompanies.setText(textGenre);
+            movieDetailTextCompanies.setVisibility(View.VISIBLE);
+            movieDetailTextCompanies.setText(textCompanies);
         }
 
     }
@@ -327,7 +328,6 @@ public class MovieDetailActivity extends AppCompatActivity {
             movieDetailTextCompanies.setVisibility(View.VISIBLE);
         }
     }
-
 
     /**
      * Seteamos los listeners en la actividad
